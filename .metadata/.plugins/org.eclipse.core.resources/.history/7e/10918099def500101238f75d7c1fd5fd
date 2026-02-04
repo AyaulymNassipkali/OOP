@@ -1,0 +1,11 @@
+package test;
+
+public class Main {
+	public static void main(String[] args) {
+		System.out.println("Variables and their types");
+		
+		int age;
+		age = 56;
+		System.out.print(age);
+	}
+}

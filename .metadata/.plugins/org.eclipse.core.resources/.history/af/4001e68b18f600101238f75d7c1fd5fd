@@ -1,0 +1,17 @@
+package test;
+
+public class Main {
+	public static void main(String [] args) {
+		int age = 18;
+		double height = 1.70;
+		char firstLetter = 'A';
+		boolean isStudent = true;
+		String name = "Newt";
+		System.out.print("Name: " + name);
+		System.out.print("Age: "+ age );
+		System.out.print("Height: " + height);
+		System.out.print("First Letter: "+firstLetter);
+		System.out.print("Is student " + isStudent);
+		
+	}
+}
