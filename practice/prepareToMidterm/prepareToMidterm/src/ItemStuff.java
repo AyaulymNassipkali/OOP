@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
-
 public interface ItemStuff {
+    String getName();
+    int getQuantity();
+    void displayInfo();
 }

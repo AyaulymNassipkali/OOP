@@ -1,0 +1,14 @@
+1. Difference Between a Class and an Interface
+-A Class is like a blueprint of an object. It describes what an object
+is (its state and its actions). A class can have variables and methods with full code.
+-An Interface is like a contract. It describes what an object can do.
+It only lists the names of the methods, but it doesn't say how to do them.
+The class that "signs" the contract must write the code for those methods.
+
+2. Fields in Interfaces
+Can they have fields? Yes, every field is automatically "public static final"
+
+3. Multiple Inheritance of Interfaces
+A class can only have one parent clas, but a class can implement many interfaces. "implements"
+An interface can have many interfaces for this "extends".
+
